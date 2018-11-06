@@ -20,8 +20,16 @@ public class LoginPage extends JFrame {
 	private JPanel contentPane;
 	private JLabel lblLoginPage;
 	private JLabel lblUsername;
-	private JTextField textField;
-	private JTextField textField_1;
+	private static JTextField textField;
+	public static JTextField getTextField() {
+		return textField;
+	}
+
+	public static JTextField getTextField_1() {
+		return textField_1;
+	}
+
+	private static JTextField textField_1;
 	private JButton btnLogin;
 
 	/**
