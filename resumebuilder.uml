@@ -1,0 +1,152 @@
+@startuml
+ResumeUI*-- FileBrowser
+class FileBrowser{
+-contentPane: JPanel
+-String s
+
+{static}main(String args[]):void
+FileBrowser()
+getS(): String
+}
+
+
+class SignUpDb{
+database(String, String, String, String, String):void
+}
+
+class FileWriterInput{
+add(String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,StringString,String,String,String,String)
+}
+LoginPage*-- Login
+SignUp*-- Login
+class Login{
+-contentPane: JPanel
+
+{static} main(String args[]):void
+}
+
+NotSignedUp*-- LoginPage
+ResumeUI*-- LoginPage
+class LoginPage{
+-contentPane: Jpanel
+-lblLoginPage: JLabel
+-lblUsername: Jlabel
+-textField: JTextField
+-textField_1: JTextField
+-btnLogin: JButton
+
+{static}main(String args[]):void
+}
+
+ResumeUI*-- JFrame
+SignUp*-- JFrame
+Login*-- JFrame
+LoginPage*-- JFrame
+FileBrowser*-- JFrame
+class JFrame{
+}
+class NotSignedUp{
+database(String,String):boolean
+}
+SignUpDb*-- SignUp
+ResumeUI*-- SignUp
+class SignUp{
+-contentPane: JPanel
+-textField: JTextField
+-textField_1: JTextField 
+-textField_2: JTextField
+-textField_3: JTextField 
+-textField_4: JTextField
+-textField_5: JTextField
+
+{static}main(String args[]):void
+
+getTextField(): JTextField
+setTextField(JTextField): void
+
+
+
+getTextField_1(): JTextField
+setTextField_1(JTextField): void
+
+
+
+getTextField_2(): JTextField
+setTextField_2(JTextField): void
+
+
+
+getTextField_3(): JTextField
+setTextField_3(JTextField): void
+
+
+
+getTextField_4(): JTextField
+setTextField_4(JTextField): void
+
+
+
+getTextField_5(): JTextField
+setTextField_5(JTextField): void
+}
+
+FileWriterInput*-- ResumeUI
+class ResumeUI{
+-contentPane: Jpanel
+-textField: JTextField
+-textField_1: JTextField
+-textField_2: JTextField
+-textField_3: JTextField
+-textField_4: JTextField
+-textField_5: JTextField
+-textField_6: JTextField
+-textField_7: JTextField
+-textField_8: JTextField
+-textField_9: JTextField
+-textField_10: JTextField
+-textField_11: JTextField
+-textField_12: JTextField
+-textField_13: JTextField
+-textField_14: JTextField
+-textField_15: JTextField
+-textField_16: JTextField
+-textField_17: JTextField
+-textField_18: JTextField
+-textField_19: JTextField
+-textField_20: JTextField
+-textField_21: JTextField
+-lblWorkExperience: JLabel
+-lblCompanyName: JLabel
+-label: JLabel
+-lblDesignation: JLabel
+-lblDesignation_1: JLabel
+-lblQualifications: JLabel
+-lblCollegeUniversity: JLabel
+-lblSchool: JLabel
+-lblOtherQualifications: JLabel
+
+{static}main(String args[]): void
+getTextField(): JTextField
+getTextField_1(): JTextField
+getTextField_2(): JTextField
+getTextField_3(): JTextField
+getTextField_4(): JTextField
+getTextField_5(): JTextField
+getTextField_6(): JTextField
+getTextField_7(): JTextField
+getTextField_8(): JTextField
+getTextField_9(): JTextField
+getTextField_10(): JTextField
+getTextField_11(): JTextField
+getTextField_12(): JTextField
+getTextField_13(): JTextField
+getTextField_14(): JTextField
+getTextField_15(): JTextField
+getTextField_16(): JTextField
+getTextField_17(): JTextField
+getTextField_18(): JTextField
+getTextField_19(): JTextField
+getTextField_20(): JTextField
+getTextField_21(): JTextField
+}
+@enduml
