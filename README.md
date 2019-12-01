@@ -28,8 +28,16 @@ Returns a resume file with all the data entered in a formatted manner. The file 
 1. Formatting Options
 The present project returns a fixed formatted text file of the resume. The next step is to provide various formatting options for the user while giving the information.
 Formatting options like
-.. *headings
-subheadings, lists, normal text, quotes
+⋅⋅* headings
+⋅⋅* subheadings
+⋅⋅* lists
+⋅⋅* normal text
+⋅⋅* quotes
+⋅⋅* hyperlinks
+⋅⋅* alignment
+and all other necessary options.
+
+
 
 Formats
 Templates
