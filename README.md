@@ -17,8 +17,8 @@ Java version 10 and above is required.
 If you want to run the project in Eclipse, import the project. Or if you want to run it without Eclipse use the .jar file of the project.
 [Installing Eclipse](https://linux4one.com/how-to-install-eclipse-ide-on-ubuntu-18-04/)
 
-## Scope of functionalities and Examples of use
-
+## Scope of Functionalities and Examples of use
+Resume creation without the hassle of writing code for it. Will be a good resume builder for beginners and people who are not familliar with LateX. 
 
 ## Project status 
 Returns a resume file with all the data entered in a formatted manner. The file name of the resume returned is **Resume.txt**.
@@ -27,24 +27,25 @@ Returns a resume file with all the data entered in a formatted manner. The file 
 
 1. Formatting Options
 The present project returns a fixed formatted text file of the resume. The next step is to provide various formatting options for the user while giving the information.
-Formatting options like
-⋅⋅* headings
-⋅⋅* subheadings
-⋅⋅* lists
-⋅⋅* normal text
-⋅⋅* quotes
-⋅⋅* hyperlinks
-⋅⋅* alignment
-and all other necessary options.
+  Formatting options like
+    * headings
+    * subheadings
+    * lists
+    * normal text
+    * quotes
+    * hyperlinks
+    * alignment
+    and all other necessary options.
+  
+2. Templates
 
-
-
-Formats
-Templates
-Custom Templates
+  * Default Templates
+    Having more number of default templates to chose from. 
+  * Custom Templates
+    Allow the user to customize the template as required.
 
 
 # UML Diagram
-
+UML Diagram for the project.
 ![UML Diagram](https://github.com/BhanuPrakashNani/OOPS-Java-Project/blob/master/UML-OOPS.png)
 
