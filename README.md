@@ -45,12 +45,14 @@ The present project returns a fixed formatted text file of the resume. The next 
     and all other necessary options.
   
 2. Templates
-
     * Default Templates
       Having more number of default templates to chose from. 
     * Custom Templates
       Allow the user to customize the template as required.
 
+3. File Formats
+    * Support for various file formats necessary have to be given for the project.
+      * .pdf
 
 # UML Diagram
 UML Diagram for the project.
