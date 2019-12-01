@@ -2,23 +2,23 @@
 
 
 # Resume Builder
-A java project which helps you create your resume within minutes. Fill the details in the application and get your resume ready in a file.
+A project made in java which helps you create your resume without writing code. Fill the details in the application and get your resume ready.
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-This project has been done in Ecilipse IDE. It uses Windows Builder and Swings for UX/UI in the application. Java Database Connectivity(JDBC) is used for connecting the database.
+This project has been done in Ecilipse IDE. It uses Windows Builder and Swings for UX/UI in the application. Java Database Connectivity(JDBC) is used for connecting the MySQL database.
 
 ## Prerequisites
-**Java**
-Java version 10 and above is required.
-[Installing Java in Linux](https://linuxize.com/post/install-java-on-ubuntu-18-04/)
+  * **Java**
+      Java version 10 and above is required.
+      [Installing Java in Linux](https://linuxize.com/post/install-java-on-ubuntu-18-04/)
 
-**MySQL**
-[Installing MySQL in Linux](https://phoenixnap.com/kb/how-to-install-mysql-on-ubuntu-18-04)
+  * **MySQL**
+      [Installing MySQL in Linux](https://phoenixnap.com/kb/how-to-install-mysql-on-ubuntu-18-04)
 
-**Eclipse**
-If you want to run the project in Eclipse, import the project. Or if you want to run it without Eclipse use the .jar file of the project.
-[Installing Eclipse](https://linux4one.com/how-to-install-eclipse-ide-on-ubuntu-18-04/)
+  * **Eclipse**
+      If you want to run the project in Eclipse, import the project. Or if you want to run it without Eclipse use the .jar file of the project.
+      [Installing Eclipse](https://linux4one.com/how-to-install-eclipse-ide-on-ubuntu-18-04/)
 
 ## Scope of Functionalities and Examples of use
 Resume creation without the hassle of writing code for it. Will be a good resume builder for beginners and people who are not familiar with LateX. 
