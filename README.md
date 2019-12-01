@@ -40,9 +40,9 @@ The present project returns a fixed formatted text file of the resume. The next 
 2. Templates
 
     * Default Templates
-        Having more number of default templates to chose from. 
+      Having more number of default templates to chose from. 
     * Custom Templates
-        Allow the user to customize the template as required.
+      Allow the user to customize the template as required.
 
 
 # UML Diagram
