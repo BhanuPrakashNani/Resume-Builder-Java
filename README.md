@@ -18,7 +18,7 @@ If you want to run the project in Eclipse, import the project. Or if you want to
 [Installing Eclipse](https://linux4one.com/how-to-install-eclipse-ide-on-ubuntu-18-04/)
 
 ## Scope of Functionalities and Examples of use
-Resume creation without the hassle of writing code for it. Will be a good resume builder for beginners and people who are not familliar with LateX. 
+Resume creation without the hassle of writing code for it. Will be a good resume builder for beginners and people who are not familiar with LateX. 
 
 ## Project status 
 Returns a resume file with all the data entered in a formatted manner. The file name of the resume returned is **Resume.txt**.
