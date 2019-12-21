@@ -15,14 +15,15 @@ public class FileWriterInput {
 	public void add(String s, String s1, String s2, String s3, String s4, String s5, String s6, String s7, String s8, String s9, String s10, String s11, String s12, String s13, String s14, String s15, String s16, String s17, String s18, String s19, String s20, String s21){
 		
 	try {
-		File file = new File("resume.txt");
+		String name = s+s1;
+		File file = new File(name+".txt");
 		file.createNewFile();
 		FileWriter fr = null;
 		fr = new FileWriter(file);
 	
 		
 		fr.write("     ********** Personal Information **********     \n");
-		fr.write("Fullname: " + s + "\n");
+		fr.write("Firstname: " + s + "\n");
 		fr.write("Surname: " + s1 + "\n");
 		fr.write("Address: " + s2 + "\n");
 		fr.write(s3 + "\n");
