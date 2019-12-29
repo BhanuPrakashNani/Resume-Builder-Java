@@ -6,17 +6,17 @@ A project made in java which helps you create your resume without writing code. 
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-This project has been done in Ecilipse IDE. It uses Windows Builder and Swings for UX/UI in the application. Java Database Connectivity(JDBC) is used for connecting the MySQL database.
+This project has been done in Ecilipse IDE. It uses Windows Builder and Swing for UX/UI in the application. Java Database Connectivity(JDBC) is used for connecting the MySQL database.
 
 ## Prerequisites
-  * **Java**
+  * **Java** -
       Java version 10 and above is required.
       [Installing Java in Linux](https://linuxize.com/post/install-java-on-ubuntu-18-04/)
 
-  * **MySQL**
+  * **MySQL** -
       [Installing MySQL in Linux](https://phoenixnap.com/kb/how-to-install-mysql-on-ubuntu-18-04)
 
-  * **Eclipse**
+  * **Eclipse** -
       If you want to run the project in Eclipse, import the project. Or if you want to run it without Eclipse use the .jar file of the project.
       [Installing Eclipse](https://linux4one.com/how-to-install-eclipse-ide-on-ubuntu-18-04/)
 
@@ -28,9 +28,11 @@ Returns a resume file with all the data entered in a formatted manner. The file 
 
 ## Future Scope/Plan of the Project
 
-1. Formatting Options
-The present project returns a fixed formatted text file of the resume. The next step is to provide various formatting options for the user while giving the information.
-  Formatting options like
+1. **Formatting Options**
+ 
+ The present project returns a fixed formatted text file of the resume. The next step is to provide various formatting options for the user while giving the information.
+   Formatting options like -
+   
     * headings
     * subheadings
     * lists
@@ -40,13 +42,13 @@ The present project returns a fixed formatted text file of the resume. The next 
     * alignment
     and all other necessary options.
   
-2. Templates
+2. **Templates**
     * Default Templates
       Having more number of default templates to chose from. 
     * Custom Templates
       Allow the user to customize the template as required.
 
-3. File Formats
+3. **File Formats**
     * Support for various file formats necessary have to be given for the project.
       * .pdf
 
