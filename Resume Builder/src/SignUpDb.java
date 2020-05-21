@@ -10,6 +10,7 @@ public class SignUpDb {
 	         // Step 1: Allocate a database 'Connection' object
 	         Connection conn = DriverManager.getConnection(
 	               "jdbc:mysql://localhost:3306/resume", "root", "bhanu");
+		        //example password - bhanu
 	               // MySQL: "jdbc:mysql://hostname:port/databaseName", "username", "password"
 	 
 	         // Step 2: Allocate a 'Statement' object in the Connection
